@@ -16,7 +16,7 @@ A modern and highly configurable React library for creating professional CRUD ad
 ## 📦 Installation
 
 ```bash
-npm install @epaolillo/react-crud
+npm install @axelcabanas/react-crud
 ```
 
 ## 🎯 Quick Start
@@ -25,7 +25,7 @@ npm install @epaolillo/react-crud
 
 ```jsx
 import React from 'react';
-import AdminCrudApp, { createAutoEntity } from '@epaolillo/react-crud';
+import AdminCrudApp, { createAutoEntity } from '@axelcabanas/react-crud';
 
 // Define your entities
 const entities = [
@@ -288,7 +288,7 @@ const affiliateEntity = createAutoEntity({
 ### Manual Affiliate Management
 
 ```jsx
-import { useAffiliate } from '@epaolillo/react-crud';
+import { useAffiliate } from '@axelcabanas/react-crud';
 
 const CustomComponent = () => {
   const { currentAffiliate, switchAffiliate, userAffiliates } = useAffiliate();

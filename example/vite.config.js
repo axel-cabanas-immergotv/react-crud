@@ -8,7 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       // Alias para usar la librería core local en desarrollo
-      '@epaolillo/react-crud': path.resolve(__dirname, '../core/src')
+      '@axelcabanas/react-crud': path.resolve(__dirname, '../core/src')
     }
   },
   server: {

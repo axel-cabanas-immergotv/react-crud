@@ -11,7 +11,7 @@ import AdminCrudApp, {
   commonIcons,
   EntityService,
   createAutoEntity
-} from '@epaolillo/react-crud';
+} from '@axelcabanas/react-crud';
 
 // Example: Simple Users entity using createAutoEntity
 const usersEntity = createAutoEntity({
